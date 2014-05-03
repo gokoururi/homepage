@@ -141,7 +141,7 @@ body {
 	border: 2px solid #373B41;
 	outline: none;
 	background: #1D1F21;
-	-moz-transition: all 1s;
+	transition: all 1s;
 }
 
 #content #links ul a:hover {
