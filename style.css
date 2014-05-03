@@ -87,6 +87,7 @@ body {
 	cursor: text;
 	color: #000;
 	width: 100px;
+	padding-right: 21px;
 }
 
 #content #searches form.google input {
