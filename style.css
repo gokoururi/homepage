@@ -73,18 +73,20 @@ body {
 	padding: 3px 5px;
 	font-size: 10px;
 	border: 1px solid lightgrey;
-	transition: color 1s, width 1s, box-shadow 1s, border 1s, background-position 2s;
-}
-
-#content #searches form .input:focus {
-	width: 100px;
+	transition: all 1s;
 }
 #content #searches form .input:hover {
+	cursor: pointer;
 	color: #000;
 	box-shadow: 0 0 5px #FFF;
 	border: 1px solid #FFF;
-	transition: color 1s, width 1s, box-shadow 1s, border 1s, background-position 0.1s;
+	transition: all 0.5s;
 	background-position: right center;
+}
+
+#content #searches form .input:focus {
+	cursor: text;
+	width: 100px;
 }
 
 #content #searches form.google input {
