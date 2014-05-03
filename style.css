@@ -1,15 +1,17 @@
 html {
+	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-size: 0;
 }
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-size: 0;
 	font-family: Tahoma;
-	background: url('images/ruri.png') #282A2E;
-	background-size: contain;
-	background-repeat: no-repeat;
+	border: 0;
+	background: #1D1F21;
 }
 
 .clear {
@@ -20,21 +22,22 @@ body {
 	color: #d67b96;
 }
 
-#left {
-	height: 100%;
-	width: 25%;
-	float: left;
-}
-
 #content {
+	min-height: 100%;
+	width: 60%;
+	margin: 0;
 	font-size: 12px;
-	height: 100%;
-	width: 65%;
+	padding-left: 25%;
+	padding-right: 10px;
+	background: url('images/ruri.png') #282A2E;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-right: 1px solid #373B41;
 	float: left;
 }
 
 #content #header {
-	margin-top: 20px;
+	padding-top: 20px;
 	margin-bottom: 60px;
 }
 
@@ -145,12 +148,4 @@ body {
 	color: #d67b96;
 	background: #70293b;
 	border-color: #70293b;
-}
-
-#right {
-	height: 100%;
-	width: 9.8%;
-	background: #1D1F21;
-	border-left: 2px solid #373B41;
-	float: left;
 }
