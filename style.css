@@ -22,7 +22,7 @@ body {
 	color: #d67b96;
 }
 
-#content {
+main {
 	display: inline-block;
 	min-height: 100%;
 	width: 65%;
@@ -36,12 +36,12 @@ body {
 	border-right: 1px solid #373B41;
 }
 
-#content #header {
+main header {
 	padding-top: 20px;
 	margin-bottom: 60px;
 }
 
-#content #header h1 {
+main header h1 {
 	color: #FFF;
 	letter-spacing: 2px;
 	font-size: 40px;
@@ -51,7 +51,7 @@ body {
 	margin: 0;
 }
 
-#content #header .subtitle {
+main header .subtitle {
 	color: #FFF;
 	text-align: center;
 	letter-spacing: 2px;
@@ -59,17 +59,17 @@ body {
 	margin: 0;
 }
 
-#content #searches {
+main #search {
 	text-align: center;
 	margin-bottom: 30px;
 }
 
-#content #searches form {
+main #search form {
 	display: inline-block;
 	margin: 0 10px;
 }
 
-#content #searches form .input {
+main #search form .input {
 	color: rgba(0,0,0,0);
 	width: 20px;
 	height: 20px;
@@ -79,7 +79,7 @@ body {
 	opacity: 0.5;
 	transition: all 1s;
 }
-#content #searches form .input:hover {
+main #search form .input:hover {
 	cursor: pointer;
 	box-shadow: 0 0 5px #FFF;
 	border: 1px solid #FFF;
@@ -88,7 +88,7 @@ body {
 	opacity: 1;
 }
 
-#content #searches form .input:focus {
+main #search form .input:focus {
 	cursor: text;
 	color: #000;
 	width: 100px;
@@ -96,42 +96,42 @@ body {
 	opacity: 1;
 }
 
-#content #searches form.google input {
+main #search form.google input {
 	background-image: url('images/google.png');
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: right center;
 }
 
-#content #searches form.youtube input {
+main #search form.youtube input {
 	background-image: url('images/youtube.png');
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: right center;
 }
 
-#content #searches form.wikipedia input {
+main #search form.wikipedia input {
 	background-image: url('images/wikipedia.jpg');
 	background-repeat: no-repeat;
 	background-size: 21px 21px;
 	background-position: right center;
 }
 
-#content #links {
+main nav {
 	text-align: center;
 }
 
-#content #links ul {
+main nav ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 }
 
-#content #links li {
+main nav li {
 	margin: 10px 10px;
 	display: inline-block;
 }
-#content #links ul a {
+main nav ul a {
 	display: inline-block;
 	width: 150px;
 	color: #81A2BE;
@@ -144,7 +144,7 @@ body {
 	transition: all 1s;
 }
 
-#content #links ul a:hover {
+main nav ul a:hover {
 	color: #d67b96;
 	background: #70293b;
 	border-color: #70293b;
