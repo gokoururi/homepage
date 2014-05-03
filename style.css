@@ -7,7 +7,7 @@ body {
 	padding: 0;
 	font-size: 0;
 	font-family: Tahoma;
-	background: url('ruri.png') #282A2E;
+	background: url('images/ruri.png') #282A2E;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -68,21 +68,45 @@ body {
 
 #content #searches form .input {
 	color: #FFF;
-	width: 20px;
+	width: 21px;
+	height: 20px;
 	padding: 3px 5px;
 	font-size: 10px;
 	border: 1px solid lightgrey;
-	-moz-transition: all 1s;
+	transition: color 1s, width 1s, box-shadow 1s, border 1s, background-position 2s;
 }
 
-#content #searches form .input:focus,
+#content #searches form .input:focus {
+	width: 100px;
+}
 #content #searches form .input:hover {
 	color: #000;
-	width: 100px;
-	box-shadow: 0 0 5px rgba(214, 123, 150, 1);
-	border: 1px solid #d67b96;
+	box-shadow: 0 0 5px #FFF;
+	border: 1px solid #FFF;
+	transition: color 1s, width 1s, box-shadow 1s, border 1s, background-position 0.1s;
+	background-position: right center;
 }
 
+#content #searches form.google input {
+	background-image: url('images/google-g-logo.png');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right center;
+}
+
+#content #searches form.youtube input {
+	background-image: url('images/youtube.png');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right center;
+}
+
+#content #searches form.wikipedia input {
+	background-image: url('images/wikipedia.jpg');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right center;
+}
 
 #content #links {
 	text-align: center;
