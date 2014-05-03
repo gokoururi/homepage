@@ -23,6 +23,7 @@ body {
 }
 
 #content {
+	display: inline-block;
 	min-height: 100%;
 	width: 65%;
 	margin: 0;
@@ -33,7 +34,6 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-right: 1px solid #373B41;
-	float: left;
 }
 
 #content #header {
