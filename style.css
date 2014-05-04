@@ -75,6 +75,9 @@ main #search form .input {
 	height: 20px;
 	padding: 0;
 	font-size: 10px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right center;
 	border: 1px solid lightgrey;
 	opacity: 0.5;
 	transition: all 1s;
@@ -98,23 +101,15 @@ main #search form .input:focus {
 
 main #search form.google input {
 	background-image: url('images/google.png');
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	background-position: right center;
 }
 
 main #search form.youtube input {
 	background-image: url('images/youtube.png');
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	background-position: right center;
 }
 
 main #search form.wikipedia input {
 	background-image: url('images/wikipedia.jpg');
-	background-repeat: no-repeat;
 	background-size: 21px 21px;
-	background-position: right center;
 }
 
 main nav {
