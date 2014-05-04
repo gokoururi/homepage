@@ -128,11 +128,11 @@ main nav li {
 }
 main nav ul a {
 	display: inline-block;
-	width: 150px;
+	min-width: 140px;
 	color: #81A2BE;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 10px 0;
+	padding: 10px 5px;
 	border: 2px solid #373B41;
 	outline: none;
 	background: #1D1F21;
