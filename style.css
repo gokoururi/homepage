@@ -122,11 +122,12 @@ main nav ul {
 	list-style-type: none;
 }
 
-main nav li {
+main nav > ul > li {
+	position: relative;
 	margin: 10px 10px;
 	display: inline-block;
 }
-main nav ul a {
+main nav > ul > li > a {
 	display: inline-block;
 	min-width: 140px;
 	color: #81A2BE;
@@ -139,8 +140,44 @@ main nav ul a {
 	transition: all 1s;
 }
 
-main nav ul a:hover {
+main nav > ul > li:hover > a {
 	color: #d67b96;
 	background: #70293b;
 	border-color: #70293b;
+}
+
+main nav > ul > li > ul {
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+	max-height: 0;
+	border: 0 solid #373B41;
+	transition: all 1s;
+	z-index: 10;
+}
+
+main nav > ul > li:hover > ul {
+	max-height: 200px;
+	border: 1px solid #70293b;
+}
+
+main nav > ul > li > ul > li {
+	display: block;
+}
+
+main nav > ul > li > ul > li > a {
+	display: inline-block;
+	width: 100%;
+	color: #81A2BE;
+	text-decoration: none;
+	padding: 5px 0;
+	outline: 0;
+	background: #1D1F21;
+	transition: all 1s;
+}
+
+main nav > ul > li > ul > li > a:hover {
+	color: #d67b96;
+	background: #70293b;
 }
