@@ -161,6 +161,7 @@ main nav > ul > li > ul {
 main nav > ul > li:hover > ul {
     max-height: 200px;
     border: 1px solid #70293b;
+    transition: max-height 0.5s, border 1s;
 }
 
 main nav > ul > li > ul > li {
