@@ -1,183 +1,184 @@
 html {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	font-size: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	font-size: 0;
-	font-family: Tahoma;
-	border: 0;
-	background: #1D1F21;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: Tahoma;
+    border: 0;
+    background: #1D1F21;
+    background-size: contain;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 .highlite {
-	color: #d67b96;
+    color: #d67b96;
 }
 
 main {
-	display: inline-block;
-	min-height: 100%;
-	width: 65%;
-	margin: 0;
-	font-size: 12px;
-	padding-left: 25%;
-	padding-right: 10px;
-	background: url('images/ruri.png') #282A2E;
-	background-size: contain;
-	background-repeat: no-repeat;
-	border-right: 1px solid #373B41;
+    display: inline-block;
+    min-height: 100%;
+    width: 65%;
+    margin: 0;
+    font-size: 12px;
+    padding-left: 25%;
+    padding-right: 10px;
+    background: url('images/ruri.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 1px solid #373B41;
 }
 
 main header {
-	padding-top: 20px;
-	margin-bottom: 60px;
+    padding-top: 20px;
+    margin-bottom: 60px;
 }
 
 main header h1 {
-	color: #FFF;
-	letter-spacing: 2px;
-	font-size: 40px;
-	font-weight: normal;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 main header .subtitle {
-	color: #FFF;
-	text-align: center;
-	letter-spacing: 2px;
-	padding: 0;
-	margin: 0;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
 }
 
 main #search {
-	text-align: center;
-	margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 main #search form {
-	display: inline-block;
-	margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 main #search form .input {
-	color: rgba(0,0,0,0);
-	width: 20px;
-	height: 20px;
-	padding: 0;
-	font-size: 10px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	background-position: right center;
-	border: 1px solid lightgrey;
-	opacity: 0.5;
-	transition: all 1s;
+    color: rgba(0,0,0,0);
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
+    border: 1px solid lightgrey;
+    opacity: 0.5;
+    transition: all 1s;
 }
 main #search form .input:hover {
-	cursor: pointer;
-	box-shadow: 0 0 5px #FFF;
-	border: 1px solid #FFF;
-	transition: all 0.5s;
-	background-position: right center;
-	opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 0 5px #FFF;
+    border: 1px solid #FFF;
+    transition: all 0.5s;
+    background-position: right center;
+    opacity: 1;
 }
 
 main #search form .input:focus {
-	cursor: text;
-	color: #000;
-	width: 100px;
-	padding: 0 25px 0 5px;
-	opacity: 1;
+    cursor: text;
+    color: #000;
+    width: 100px;
+    padding: 0 25px 0 5px;
+    opacity: 1;
 }
 
 main #search form.google input {
-	background-image: url('images/google.png');
+    background-image: url('images/google.png');
 }
 
 main #search form.youtube input {
-	background-image: url('images/youtube.png');
+    background-image: url('images/youtube.png');
 }
 
 main #search form.wikipedia input {
-	background-image: url('images/wikipedia.jpg');
-	background-size: 21px 21px;
+    background-image: url('images/wikipedia.jpg');
+    background-size: 21px 21px;
 }
 
 main nav {
-	text-align: center;
+    text-align: center;
 }
 
 main nav ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 main nav > ul > li {
-	position: relative;
-	margin: 10px 10px;
-	display: inline-block;
+    position: relative;
+    margin: 10px 10px;
+    display: inline-block;
 }
 main nav > ul > li > a {
-	display: inline-block;
-	min-width: 140px;
-	color: #81A2BE;
-	text-decoration: none;
-	font-size: 18px;
-	padding: 10px 5px;
-	border: 2px solid #373B41;
-	outline: none;
-	background: #1D1F21;
-	transition: all 1s;
+    display: inline-block;
+    min-width: 140px;
+    color: #81A2BE;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border: 2px solid #373B41;
+    outline: none;
+    background: #1D1F21;
+    transition: all 1s;
 }
 
 main nav > ul > li:hover > a {
-	color: #d67b96;
-	background: #70293b;
-	border-color: #70293b;
+    color: #d67b96;
+    background: #70293b;
+    border-color: #70293b;
 }
 
 main nav > ul > li > ul {
-	position: absolute;
-	box-sizing: border-box;
-	overflow: hidden;
-	width: 100%;
-	max-height: 0;
-	border: 0 solid #373B41;
-	transition: all 1s;
-	z-index: 10;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    max-height: 0;
+    border: 0 solid #373B41;
+    transition: all 1s;
+    z-index: 10;
 }
 
 main nav > ul > li:hover > ul {
-	max-height: 200px;
-	border: 1px solid #70293b;
+    max-height: 200px;
+    border: 1px solid #70293b;
 }
 
 main nav > ul > li > ul > li {
-	display: block;
+    display: block;
 }
 
 main nav > ul > li > ul > li > a {
-	display: inline-block;
-	width: 100%;
-	color: #81A2BE;
-	text-decoration: none;
-	padding: 5px 0;
-	outline: 0;
-	background: #1D1F21;
-	transition: all 1s;
+    display: inline-block;
+    width: 100%;
+    color: #81A2BE;
+    text-decoration: none;
+    padding: 5px 0;
+    outline: 0;
+    background: #1D1F21;
+    transition: all 1s;
 }
 
 main nav > ul > li > ul > li > a:hover {
-	color: #d67b96;
-	background: #70293b;
+    color: #d67b96;
+    background: #70293b;
 }
