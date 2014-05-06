@@ -8,3 +8,8 @@ $(window).resize(function(event) {
     }
 });
 
+$(document).ready(function(event) {
+    var waifus = [ 'waifu1', 'waifu2', 'waifu3' ];
+    var waifu = waifus[Math.floor(Math.random() * waifus.length)];
+    $('main').addClass(waifu);
+});

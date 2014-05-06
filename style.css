@@ -19,8 +19,24 @@ body {
     color: #d67b96;
 }
 
-.waifu {
-    background: url('images/ruri.png') #282A2E;
+/*  One of these waifu classes will be added to <main>
+    on pageload by javascript */
+.waifu1 {
+    background: url('images/mascots/ruri1.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 250px;
+}
+
+.waifu2 {
+    background: url('images/mascots/ruri2.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 250px;
+}
+
+.waifu3 {
+    background: url('images/mascots/ruri3.png') #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px 20px 20px 250px;
