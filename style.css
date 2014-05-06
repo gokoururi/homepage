@@ -15,10 +15,6 @@ body {
     background: #1D1F21;
 }
 
-.clear {
-    clear: both;
-}
-
 .highlite {
     color: #d67b96;
 }
@@ -44,11 +40,11 @@ main {
     margin-top: 10vh;
 }
 
-main header {
+header {
     margin-bottom: 60px;
 }
 
-main header h1 {
+h1 {
     color: #FFF;
     letter-spacing: 2px;
     font-size: 40px;
@@ -58,7 +54,7 @@ main header h1 {
     margin: 0;
 }
 
-main header .subtitle {
+.subtitle {
     color: #FFF;
     text-align: center;
     letter-spacing: 2px;
@@ -66,17 +62,17 @@ main header .subtitle {
     margin: 0;
 }
 
-main #search {
+.searchContainer {
     text-align: center;
     margin-bottom: 30px;
 }
 
-main #search form {
+.searchForm {
     display: inline-block;
     margin: 0 10px;
 }
 
-main #search form .input {
+.searchBar {
     color: rgba(0,0,0,0);
     width: 20px;
     height: 20px;
@@ -89,7 +85,7 @@ main #search form .input {
     opacity: 0.5;
     transition: all 1s;
 }
-main #search form .input:hover {
+.searchBar:hover {
     cursor: pointer;
     box-shadow: 0 0 5px #FFF;
     border: 1px solid #FFF;
@@ -98,7 +94,7 @@ main #search form .input:hover {
     opacity: 1;
 }
 
-main #search form .input:focus {
+.searchBar:focus {
     cursor: text;
     color: #000;
     width: 100px;
@@ -106,35 +102,36 @@ main #search form .input:focus {
     opacity: 1;
 }
 
-main #search form.google input {
+.google {
     background-image: url('images/google.png');
 }
 
-main #search form.youtube input {
+.youtube {
     background-image: url('images/youtube.png');
 }
 
-main #search form.wikipedia input {
+.wikipedia {
     background-image: url('images/wikipedia.jpg');
     background-size: 21px 21px;
 }
 
-main nav {
+nav {
     text-align: center;
 }
 
-main nav ul {
+.buttonList,
+.buttonList ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-main nav > ul > li {
+.buttonList > li {
     position: relative;
     margin: 10px 10px;
     display: inline-block;
 }
-main nav > ul > li > a {
+.buttonList > li > a {
     display: inline-block;
     min-width: 140px;
     color: #81A2BE;
@@ -147,13 +144,13 @@ main nav > ul > li > a {
     transition: all 1s;
 }
 
-main nav > ul > li:hover > a {
+.buttonList > li:hover > a {
     color: #d67b96;
     background: #70293b;
     border-color: #70293b;
 }
 
-main nav > ul > li > ul {
+.buttonList > li > ul {
     position: absolute;
     box-sizing: border-box;
     overflow: hidden;
@@ -164,17 +161,17 @@ main nav > ul > li > ul {
     z-index: 10;
 }
 
-main nav > ul > li:hover > ul {
+.buttonList > li:hover > ul {
     max-height: 200px;
     border: 1px solid #70293b;
     transition: max-height 0.5s, border 1s;
 }
 
-main nav > ul > li > ul > li {
+.buttonList > li > ul > li {
     display: block;
 }
 
-main nav > ul > li > ul > li > a {
+.buttonList > li > ul > li > a {
     display: inline-block;
     width: 100%;
     color: #81A2BE;
@@ -185,7 +182,7 @@ main nav > ul > li > ul > li > a {
     transition: all 1s;
 }
 
-main nav > ul > li > ul > li > a:hover {
+.buttonList > li > ul > li > a:hover {
     color: #d67b96;
     background: #70293b;
 }
