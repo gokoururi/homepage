@@ -10,9 +10,9 @@ body {
     padding: 0;
     font-size: 0;
     font-family: Tahoma;
+    text-align: center;
     border: 0;
     background: #1D1F21;
-    background-size: contain;
 }
 
 .clear {
@@ -23,23 +23,28 @@ body {
     color: #d67b96;
 }
 
-main {
-    display: inline-block;
-    min-height: 100%;
-    min-width: 500px;
-    width: 65%;
-    margin: 0;
-    font-size: 12px;
-    padding-left: 25%;
-    padding-right: 10px;
+.waifu {
     background: url('images/ruri.png') #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
-    border-right: 1px solid #373B41;
+    padding: 20px 20px 20px 250px;
+}
+
+.plain {
+    background: #282A2E;
+    padding: 20px 20px 20px 20px;
+}
+
+main {
+    display: inline-block;
+    min-width: 500px;
+    margin: 0;
+    font-size: 12px;
+    border: 1px solid #373B41;
+    margin-top: 10vh;
 }
 
 main header {
-    padding-top: 20px;
     margin-bottom: 60px;
 }
 
