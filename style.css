@@ -170,6 +170,28 @@ nav {
     border-color: #70293b;
 }
 
+.arrowButton:after {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-left: 5px solid #373B41;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    margin-top: 8px;
+    margin-right: 10px;
+    float: right;
+    transition: all 1s;
+}
+
+li:hover .arrowButton:after {
+    border-left: 5px solid #d67b96;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: transform 0.5s, border 1s;
+    transform: rotate(90deg);
+}
+
 .buttonList > li > ul {
     position: absolute;
     box-sizing: border-box;
