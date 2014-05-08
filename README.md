@@ -18,24 +18,15 @@ To customize mascots modify the '.mascotN' classes inside the [stylesheet](style
 
 ```css
 .mascot1 {
-    background: url('images/mascots/ruri1.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri1.png');
 }
 
 .mascot2 {
-    background: url('images/mascots/ruri2.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri2.png');
 }
 
 .mascot3 {
-    background: url('images/mascots/ruri3.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri3.png');
 }
 ```
 

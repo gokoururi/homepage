@@ -26,38 +26,31 @@ body {
 /*  One of these mascot classes will be added to <main>
     on pageload by javascript */
 .mascot1 {
-    background: url('images/mascots/ruri1.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri1.png');
 }
 
 .mascot2 {
-    background: url('images/mascots/ruri2.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri2.png');
 }
 
 .mascot3 {
-    background: url('images/mascots/ruri3.png') #282A2E;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 20px 20px 20px 250px;
+    background-image: url('images/mascots/ruri3.png');
 }
 
 .plain {
-    background: #282A2E;
     padding: 20px 20px 20px 20px;
 }
 
 main {
     display: inline-block;
     min-width: 500px;
-    margin: 0;
     font-size: 12px;
+    padding: 20px 20px 20px 250px;
+    background-color: #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 1px solid #373B41;
-    margin-top: 10vh;
+    margin: 10vh 0 0 0;
 }
 
 header {
