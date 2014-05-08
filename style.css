@@ -23,23 +23,23 @@ body {
     color: #d67b96;
 }
 
-/*  One of these waifu classes will be added to <main>
+/*  One of these mascot classes will be added to <main>
     on pageload by javascript */
-.waifu1 {
+.mascot1 {
     background: url('images/mascots/ruri1.png') #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px 20px 20px 250px;
 }
 
-.waifu2 {
+.mascot2 {
     background: url('images/mascots/ruri2.png') #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px 20px 20px 250px;
 }
 
-.waifu3 {
+.mascot3 {
     background: url('images/mascots/ruri3.png') #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
