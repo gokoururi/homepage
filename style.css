@@ -1,0 +1,222 @@
+/*  Copyright © 2014 gokoururi
+    This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See the COPYING file for more details. */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: Tahoma;
+    text-align: center;
+    border: 0;
+    background: #1D1F21;
+}
+
+.highlite {
+    color: #d67b96;
+}
+
+/*  One of these mascot classes will be added to <main>
+    on pageload by javascript */
+.mascot1 {
+    background-image: url('images/mascots/ruri1.png');
+}
+
+.mascot2 {
+    background-image: url('images/mascots/ruri2.png');
+}
+
+.mascot3 {
+    background-image: url('images/mascots/ruri3.png');
+}
+
+.plain {
+    padding: 20px 20px 20px 20px;
+}
+
+main {
+    display: inline-block;
+    min-width: 500px;
+    font-size: 12px;
+    padding: 20px 20px 20px 250px;
+    background-color: #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #373B41;
+    margin: 10vh 0 0 0;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #FFF;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.searchContainer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.searchForm {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.searchBar {
+    color: rgba(0,0,0,0);
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
+    border: 1px solid lightgrey;
+    opacity: 0.5;
+    transition: all 1s;
+}
+.searchBar:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #FFF;
+    border: 1px solid #FFF;
+    transition: all 0.5s;
+    background-position: right center;
+    opacity: 1;
+}
+
+.searchBar:focus {
+    cursor: text;
+    color: #000;
+    width: 100px;
+    padding: 0 25px 0 5px;
+    opacity: 1;
+}
+
+.google {
+    background-image: url('images/google.png');
+}
+
+.youtube {
+    background-image: url('images/youtube.png');
+}
+
+.wikipedia {
+    background-image: url('images/wikipedia.jpg');
+    background-size: 21px 21px;
+}
+
+nav {
+    text-align: center;
+}
+
+.buttonList,
+.buttonList ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.buttonList > li {
+    position: relative;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.buttonList > li > a {
+    display: inline-block;
+    min-width: 140px;
+    color: #81A2BE;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border: 2px solid #373B41;
+    outline: none;
+    background: #1D1F21;
+    transition: all 1s;
+}
+
+.buttonList > li:hover > a {
+    color: #d67b96;
+    background: #70293b;
+    border-color: #70293b;
+}
+
+.arrowButton:after {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-left: 5px solid #373B41;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    margin: 8px 10px 0 8px;
+    float: right;
+    transition: all 1s;
+}
+
+li:hover .arrowButton:after {
+    border-left: 5px solid #d67b96;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: transform 0.5s, border 1s;
+    transform: rotate(90deg);
+}
+
+.buttonList > li > ul {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    max-height: 0;
+    border: 0 solid #373B41;
+    transition: all 1s;
+    z-index: 10;
+}
+
+.buttonList > li:hover > ul {
+    max-height: 200px;
+    border: 1px solid #70293b;
+    transition: max-height 0.5s, border 1s;
+}
+
+.buttonList > li > ul > li {
+    display: block;
+}
+
+.buttonList > li > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    color: #81A2BE;
+    text-decoration: none;
+    padding: 5px 0;
+    outline: 0;
+    background: #1D1F21;
+    transition: all 1s;
+}
+
+.buttonList > li > ul > li > a:hover {
+    color: #d67b96;
+    background: #70293b;
+}
