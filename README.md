@@ -3,6 +3,8 @@ Homepage
 
 ![alt tag](screenshots/preview.png "Homepage preview")
 
+**[Live Demo](http://gokoururi.github.io/homepage/)**
+
 This repository contains a custom homepage made using html, css and javascript (node.js). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
 
 Features:
