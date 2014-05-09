@@ -33,3 +33,7 @@ To customize mascots modify the '.mascotN' classes inside the [stylesheet](style
 ```
 
 You can remove or add additional .mascotN classes. Javascript will take care of the rest.
+
+Disclaimer
+----
+Images of cute girls were made by Anons from /w/ and stolen from their [Google Drive](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE)
