@@ -132,91 +132,131 @@ nav {
     text-align: center;
 }
 
+/* Button configuration */
 .buttonList,
 .buttonList ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-
-.buttonList > li {
+.button {
     position: relative;
     margin: 10px 10px;
     display: inline-block;
 }
-.buttonList > li > a {
+.button > a {
     display: inline-block;
     min-width: 140px;
-    color: #81A2BE;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 5px;
-    border: 2px solid #373B41;
+    border-width: 2px solid;
+    border-style: solid;
     outline: none;
-    background: #1D1F21;
     transition: all 1s;
 }
-
-.buttonList > li:hover > a {
-    color: #d67b96;
-    background: #70293b;
-    border-color: #70293b;
-}
-
-.arrowButton:after {
+.buttonArrow > a:after {
     width: 0;
     height: 0;
     font-size: 0;
-    border-left: 5px solid #373B41;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+    border-style: solid;
+    border-left-width: 5px;
+    border-top-width: 5px;
+    border-top-color: transparent;
+    border-bottom-width: 5px;
+    border-bottom-color: transparent;
+    border-right-width: 0;
     content:"";
     margin: 8px 10px 0 8px;
     float: right;
     transition: all 1s;
 }
-
-li:hover .arrowButton:after {
-    border-left: 5px solid #d67b96;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+.buttonArrow:hover > a:after {
     transition: transform 0.5s, border 1s;
     transform: rotate(90deg);
 }
-
-.buttonList > li > ul {
+.button > ul {
     position: absolute;
     box-sizing: border-box;
     overflow: hidden;
     width: 100%;
     max-height: 0;
-    border: 0 solid #373B41;
+    border-width: 0;
+    border-style: solid;
     transition: all 1s;
     z-index: 10;
 }
-
-.buttonList > li:hover > ul {
+.button:hover > ul {
     max-height: 200px;
-    border: 1px solid #70293b;
+    border-width: 1px;
+    border-style: solid;
     transition: max-height 0.5s, border 1s;
 }
 
-.buttonList > li > ul > li {
+.button > ul > li {
     display: block;
 }
-
-.buttonList > li > ul > li > a {
+.button > ul > li > a {
     display: inline-block;
     width: 100%;
-    color: #81A2BE;
     text-decoration: none;
     padding: 5px 0;
     outline: 0;
-    background: #1D1F21;
     transition: all 1s;
 }
-
-.buttonList > li > ul > li > a:hover {
+.button > ul > li > a:hover {
     color: #d67b96;
     background: #70293b;
+}
+
+/* Grey button */
+.buttonGrey > a,
+.buttonGrey > ul {
+    border-color: #373B41;
+}
+.buttonGrey > a,
+.buttonGrey > ul > li > a {
+    color: #81A2BE;
+    background: #1D1F21;
+}
+.buttonGrey > a:after {
+    border-left-color: #373B41;
+}
+.buttonGrey:hover > a,
+.buttonGrey > ul > li > a:hover {
+    color: #d67b96;
+    background: #70293b;
+}
+.buttonGrey:hover > a,
+.buttonGrey:hover > ul {
+    border-color: #70293b;
+}
+.buttonGrey:hover > a:after {
+    border-left-color: #d67b96;
+}
+
+/* Green button */
+.buttonGreen > a,
+.buttonGreen > ul {
+    border-color: #91b476;
+}
+.buttonGreen > a,
+.buttonGreen > ul > li > a {
+    color: #43644a;
+    background: #729a64;
+}
+.buttonGreen > a:after {
+    border-left-color: #91b476;
+}
+.buttonGreen:hover > a,
+.buttonGreen > ul > li > a:hover {
+    color: #269926;
+    background: #67E667;
+}
+.buttonGreen:hover > a,
+.buttonGreen:hover > ul {
+    border-color: #67E667;
+}
+.buttonGreen:hover > a:after {
+    border-left-color: #269926;
 }
