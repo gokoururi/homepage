@@ -14,7 +14,7 @@ Features:
 * Randomly selected cute 2D girls
 * **New**: Column style links. See [Live Demo](http://gokoururi.github.io/homepage/)
 
-Customzing and adding mascots
+Customizing and adding mascots
 ----
 
 To customize mascots modify the '.mascotN' classes inside the [stylesheet](style.css)
