@@ -157,7 +157,7 @@ nav {
     outline: none;
     transition: all 1s;
 }
-.buttonArcolumn > a:after {
+.buttonArrow > a:after {
     width: 0;
     height: 0;
     font-size: 0;
@@ -173,7 +173,7 @@ nav {
     float: right;
     transition: all 1s;
 }
-.buttonArcolumn:hover > a:after {
+.buttonArrow:hover > a:after {
     transition: transform 0.5s, border 1s;
     transform: rotate(90deg);
 }
