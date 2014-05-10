@@ -23,18 +23,10 @@ body {
     color: #d67b96;
 }
 
-/*  One of these mascot classes will be added to <main>
-    on pageload by javascript */
-.mascot1 {
-    background-image: url('images/mascots/ruri1.png');
-}
-
-.mascot2 {
-    background-image: url('images/mascots/ruri2.png');
-}
-
-.mascot3 {
-    background-image: url('images/mascots/ruri3.png');
+/* .mascot and .plain will be added to element 'main' by javascript in
+    addition to a random mascot */
+.mascot {
+    padding: 20px 20px 20px 250px;
 }
 
 .plain {
@@ -45,7 +37,6 @@ main {
     display: inline-block;
     min-width: 500px;
     font-size: 12px;
-    padding: 20px 20px 20px 250px;
     background-color: #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
