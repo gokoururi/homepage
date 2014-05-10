@@ -135,7 +135,7 @@ nav {
 /* Button configuration */
 .button {
     position: relative;
-    margin: 10px 10px;
+    margin: 5px 10px;
     display: inline-block;
 }
 .button > a {
