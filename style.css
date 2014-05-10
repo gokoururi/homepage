@@ -77,7 +77,7 @@ h1 {
 
 .searchContainer {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 15px 0;
 }
 
 .searchForm {
@@ -132,13 +132,15 @@ nav {
     text-align: center;
 }
 
-/* Button configuration */
+.columnList,
+.columnList ul,
 .buttonList,
 .buttonList ul {
     padding: 0;
-    margin: 0;
     list-style-type: none;
 }
+
+/* Button configuration */
 .button {
     position: relative;
     margin: 10px 10px;
@@ -150,12 +152,12 @@ nav {
     text-decoration: none;
     font-size: 18px;
     padding: 10px 5px;
-    border-width: 2px solid;
+    border-width: 2px;
     border-style: solid;
     outline: none;
     transition: all 1s;
 }
-.buttonArrow > a:after {
+.buttonArcolumn > a:after {
     width: 0;
     height: 0;
     font-size: 0;
@@ -171,7 +173,7 @@ nav {
     float: right;
     transition: all 1s;
 }
-.buttonArrow:hover > a:after {
+.buttonArcolumn:hover > a:after {
     transition: transform 0.5s, border 1s;
     transform: rotate(90deg);
 }
@@ -259,4 +261,94 @@ nav {
 }
 .buttonGreen:hover > a:after {
     border-left-color: #269926;
+}
+
+/* Row configuration */
+.columnList {
+    display: inline-block;
+}
+.column {
+    display: table-cell;
+    text-align: center;
+    height: 100%;
+    border-right: 1px solid #373B41;
+    padding: 0 10px;
+}
+
+.column:last-of-type {
+    border-right-width: 0;
+}
+.column > a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.8s;
+}
+//.column > a:before {
+    display: inline-block;
+    margin: 0 5px;
+    content: "::";
+}
+
+.column > ul > li {
+    margin-bottom: 3px;
+}
+
+.column > ul > li > a {
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: bold;
+    outline: 0;
+    transition: all 0.8s;
+}
+
+/* Row standard colors */
+.column > a,
+.column > ul > li:before {
+    color: #1D1F21;
+}
+.column > a {
+    text-shadow: 0 0.5px #373B41;
+}
+.column > ul > li > a {
+    color: #81A2BE;
+}
+
+/* Row purple highlite */
+.columnPurple:hover > a,
+.columnPurple:hover > ul > li:before {
+    color: #3c3a5c;
+}
+.columnPurple:hover > a {
+    text-shadow: 0 0.5px #b9b6d9;
+}
+.columnPurple > ul > li > a:hover {
+    color: #b9b6d9;
+}
+
+/* Row pink highlite */
+.columnPink:hover > a,
+.columnPink:hover > ul > li:before {
+    color: #70293b;
+}
+.columnPink:hover > a {
+    text-shadow: 0 0.5px #d67b96;
+}
+.columnPink > ul > li > a:hover {
+    color: #d67b96;
+}
+
+/* Row green highlite */
+.columnGreen:hover > a,
+.columnGreen:hover > ul > li:before {
+    color: #43644a;
+}
+.columnGreen:hover > a {
+    text-shadow: 0 0.5px #729a64;
+}
+.columnGreen > ul > li > a:hover {
+    color: #91b476;
 }
