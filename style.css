@@ -150,7 +150,7 @@ nav {
     text-decoration: none;
     font-size: 18px;
     padding: 10px 5px;
-    border-width: 2px solid;
+    border-width: 2px;
     border-style: solid;
     outline: none;
     transition: all 1s;
