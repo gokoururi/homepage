@@ -12,28 +12,19 @@ Features:
 * Flashy Slidy sublinks
 * Flashy Slidy searchbars 
 * Randomly selected cute 2D girls
+* **New**: Column style links. See [Live Demo](http://gokoururi.github.io/homepage/)
 
-Customzing and adding mascots
+Customizing and adding mascots
 ----
 
-To customize mascots modify the '.mascotN' classes inside the [stylesheet](style.css)
+To customize mascots modify the following values in [javascript](js/scripts.js):
 
-```css
-.mascot1 {
-    background-image: url('images/mascots/ruri1.png');
-}
-
-.mascot2 {
-    background-image: url('images/mascots/ruri2.png');
-}
-
-.mascot3 {
-    background-image: url('images/mascots/ruri3.png');
-}
+```javascript
+    var mascotEnable    = true;
+    var mascotPath      = "images/mascots/"
+    var mascotList      = [ 'ruri1.png', 'ruri2.png', 'ruri3.png' ];
 ```
-
-You can remove or add additional .mascotN classes. Javascript will take care of the rest.
 
 Disclaimer
 ----
-Images of cute girls were made by Anons from /w/ and stolen from their [Google Drive](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE)
+Images of cute girls were made by Anons from /w/ and stolen from their [Google Drive](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE).
