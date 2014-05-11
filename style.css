@@ -76,12 +76,17 @@ h1 {
     margin: 0 10px;
 }
 
-.searchBar {
+.searchBar::-webkit-input-placeholder {
     color: rgba(0,0,0,0);
+    transition: color 1s;
+}
+
+.searchBar {
     width: 20px;
     height: 20px;
     padding: 0;
     font-size: 10px;
+    color: rgba(0,0,0,0);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: right center;
@@ -90,6 +95,7 @@ h1 {
     opacity: 0.5;
     transition: all 1s;
 }
+
 .searchBar:hover {
     cursor: pointer;
     box-shadow: 0 0 5px #FFF;
@@ -99,10 +105,14 @@ h1 {
     opacity: 1;
 }
 
+.searchBar:focus::-webkit-input-placeholder{
+    color: rgba(100,100,100,1);
+}
+
 .searchBar:focus {
     cursor: text;
-    color: #000;
     width: 100px;
+    color: rgba(100,100,100,1);
     padding: 0 25px 0 5px;
     opacity: 1;
 }
