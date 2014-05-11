@@ -289,11 +289,6 @@ nav {
     font-weight: bold;
     transition: all 0.8s;
 }
-//.column > a:before {
-    display: inline-block;
-    margin: 0 5px;
-    content: "::";
-}
 
 .column > ul > li {
     margin-bottom: 3px;
