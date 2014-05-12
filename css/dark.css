@@ -1,4 +1,4 @@
-/*  Copyright © 2014 gokoururi
+/*  Copyright 2014 gokoururi
     This work is free. You can redistribute it and/or modify it under the
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the COPYING file for more details. */
@@ -16,6 +16,11 @@ body {
     font-family: Tahoma;
     text-align: center;
     border: 0;
+    background: #1D1F21;
+}
+
+.highlite {
+    color: #d67b96;
 }
 
 /* .mascot and .plain will be added to element 'main' by javascript in
@@ -32,10 +37,10 @@ main {
     display: inline-block;
     min-width: 500px;
     font-size: 12px;
+    background-color: #282A2E;
     background-size: contain;
     background-repeat: no-repeat;
-    border-width: 1px;
-    border-style: solid;
+    border: 1px solid #373B41;
     margin: 10vh 0 0 0;
 }
 
@@ -44,18 +49,17 @@ header {
 }
 
 h1 {
-    color: #AAA;
+    color: #FFF;
     letter-spacing: 2px;
     font-size: 40px;
     font-weight: normal;
     text-align: center;
     padding: 0;
-    text-shadow: 0 1px #FFF;
     margin: 0;
 }
 
 .subtitle {
-    color: #AAA;
+    color: #FFF;
     text-align: center;
     letter-spacing: 2px;
     padding: 0;
@@ -94,8 +98,8 @@ h1 {
 
 .searchBar:hover {
     cursor: pointer;
-    box-shadow: 0 0 5px lightgrey;
-    border: 1px solid lightgrey;
+    box-shadow: 0 0 5px #FFF;
+    border: 1px solid #FFF;
     transition: all 0.5s;
     background-position: right center;
     opacity: 1;
@@ -114,15 +118,15 @@ h1 {
 }
 
 .google {
-    background-image: url('images/google-light.png');
+    background-image: url('../images/google.png');
 }
 
 .youtube {
-    background-image: url('images/youtube-light.png');
+    background-image: url('../images/youtube.png');
 }
 
 .wikipedia {
-    background-image: url('images/wikipedia-light.jpg');
+    background-image: url('../images/wikipedia.jpg');
     background-size: 21px 21px;
 }
 
@@ -209,65 +213,53 @@ nav {
     background: #70293b;
 }
 
-/* Colors */
-body {
-    background-color: #EFEFEF;
-}
-.highlite {
-    color: #FF9966;
-}
-main {
-    background-color: #F2F2F2;
-    border-color: #FFF;
-}
-
 /* Grey button */
 .buttonGrey > a,
 .buttonGrey > ul {
-    border-color: #FFF;
+    border-color: #373B41;
 }
 .buttonGrey > a,
 .buttonGrey > ul > li > a {
-    color: #FFF;
-    background: #CCC;
+    color: #81A2BE;
+    background: #1D1F21;
 }
 .buttonGrey > a:after {
-    border-left-color: #FFF;
+    border-left-color: #373B41;
 }
 .buttonGrey:hover > a,
 .buttonGrey > ul > li > a:hover {
-    color: #FFDBB8;
-    background: #FF9966;
+    color: #d67b96;
+    background: #70293b;
 }
 .buttonGrey:hover > a,
 .buttonGrey:hover > ul {
-    border-color: #FF9966;
+    border-color: #70293b;
 }
 .buttonGrey:hover > a:after {
-    border-left-color: #FFDBB8;
+    border-left-color: #d67b96;
 }
 
 /* Green button */
 .buttonGreen > a,
 .buttonGreen > ul {
-    border-color: #daffd5;
+    border-color: #91b476;
 }
 .buttonGreen > a,
 .buttonGreen > ul > li > a {
-    color: #daffd5;
-    background: #9be391;
+    color: #43644a;
+    background: #729a64;
 }
 .buttonGreen > a:after {
     border-left-color: #91b476;
 }
 .buttonGreen:hover > a,
 .buttonGreen > ul > li > a:hover {
-    color: #eeffeb;
-    background: #91ff82;
+    color: #269926;
+    background: #67E667;
 }
 .buttonGreen:hover > a,
 .buttonGreen:hover > ul {
-    border-color: #91ff82;
+    border-color: #67E667;
 }
 .buttonGreen:hover > a:after {
     border-left-color: #269926;
@@ -281,7 +273,7 @@ main {
     display: table-cell;
     text-align: center;
     height: 100%;
-    border-right: 1px solid #DDD;
+    border-right: 1px solid #373B41;
     padding: 0 10px;
 }
 
@@ -313,22 +305,22 @@ main {
 /* Row standard colors */
 .column > a,
 .column > ul > li:before {
-    color: #DDD;
+    color: #1D1F21;
 }
 .column > a {
-    text-shadow: 0 0.5px #FFF;
+    text-shadow: 0 0.5px #373B41;
 }
 .column > ul > li > a {
-    color: #888;
+    color: #81A2BE;
 }
 
 /* Row purple highlite */
 .columnPurple:hover > a,
 .columnPurple:hover > ul > li:before {
-    color: #b9b6d9
+    color: #3c3a5c;
 }
 .columnPurple:hover > a {
-    text-shadow: 0 0.5px #FFF;
+    text-shadow: 0 0.5px #b9b6d9;
 }
 .columnPurple > ul > li > a:hover {
     color: #b9b6d9;
@@ -337,10 +329,10 @@ main {
 /* Row pink highlite */
 .columnPink:hover > a,
 .columnPink:hover > ul > li:before {
-    color: #d67b96
+    color: #70293b;
 }
 .columnPink:hover > a {
-    text-shadow: 0 0.5px #FFF;
+    text-shadow: 0 0.5px #d67b96;
 }
 .columnPink > ul > li > a:hover {
     color: #d67b96;
@@ -349,10 +341,10 @@ main {
 /* Row green highlite */
 .columnGreen:hover > a,
 .columnGreen:hover > ul > li:before {
-    color: #729a64;
+    color: #43644a;
 }
 .columnGreen:hover > a {
-    text-shadow: 0 0.5px #FFF;
+    text-shadow: 0 0.5px #729a64;
 }
 .columnGreen > ul > li > a:hover {
     color: #91b476;
