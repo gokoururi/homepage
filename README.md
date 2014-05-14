@@ -3,7 +3,7 @@ Homepage
 
 ![alt tag](screenshots/preview.png "Homepage preview")
 
-**[Live Demo](http://gokoururi.github.io/homepage/)**
+**Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
 
 This repository contains a custom homepage made using html, css and javascript (node.js). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
 
@@ -12,7 +12,8 @@ Features:
 * Flashy Slidy sublinks
 * Flashy Slidy searchbars 
 * Randomly selected cute 2D girls
-* **New**: Column style links. See [Live Demo](http://gokoururi.github.io/homepage/)
+* Column style links.
+* **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
 
 Customizing and adding mascots
 ----
