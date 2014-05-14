@@ -10,7 +10,7 @@ This repository contains a custom homepage made using html, css and javascript (
 Features:
 * Flashy links
 * Flashy Slidy sublinks
-* Flashy Slidy searchbars 
+* Flashy Slidy searchbars
 * Randomly selected cute 2D girls
 * Column style links.
 * **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)

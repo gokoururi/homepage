@@ -34,7 +34,7 @@ $(document).ready(function(event) {
     var mascot          = mascotPath + mascotList[Math.floor(Math.random() * mascotList.length)];
     var mascotMinWidth  = '750';
 
-    if ( mascotEnable ) { 
+    if ( mascotEnable ) {
         setMascot(mascot);
         controlMascot(mascot, mascotMinWidth);
     } else { removeMascot(); }
