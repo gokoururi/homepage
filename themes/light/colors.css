@@ -4,24 +4,25 @@
     as published by Sam Hocevar. See the COPYING file for more details. */
 
 body {
-    background: #1D1F21;
+    background-color: #EFEFEF;
 }
 
 .highlite {
-    color: #d67b96;
+    color: #FF9966;
 }
 
 main {
-    background-color: #282A2E;
-    border-color: #373B41;
+    background-color: #F2F2F2;
+    border-color: #FFF;
 }
 
 h1 {
-    color: #FFF;
+    color: #AAA;
+    text-shadow: 0 1px #FFF;
 }
 
 .subtitle {
-    color: #FFF;
+    color: #AAA;
 }
 
 .searchBar::-webkit-input-placeholder {
@@ -32,8 +33,8 @@ h1 {
     border-color: lightgrey;
 }
 .searchBar:hover {
-    box-shadow: 0 0 5px #FFF;
-    border-color: #FFF;
+    box-shadow: 0 0 5px lightgrey;
+    border-color: lightgrey;
 }
 .searchBar:focus::-webkit-input-placeholder{
     color: rgba(100,100,100,1);
@@ -42,62 +43,65 @@ h1 {
     color: rgba(100,100,100,1);
 }
 .google {
-    background-image: url('../images/google.png');
+    background-image: url('images/icons/google.png');
 }
+
 .youtube {
-    background-image: url('../images/youtube.png');
+    background-image: url('images/icons/youtube.png');
 }
+
 .wikipedia {
-    background-image: url('../images/wikipedia.jpg');
+    background-image: url('images/icons/wikipedia.jpg');
+    background-size: 21px 21px;
 }
 
 /* Grey button */
 .buttonGrey > a,
 .buttonGrey > ul {
-    border-color: #373B41;
+    border-color: #FFF;
 }
 .buttonGrey > a,
 .buttonGrey > ul > li > a {
-    color: #81A2BE;
-    background: #1D1F21;
+    color: #FFF;
+    background: #CCC;
 }
 .buttonGrey > a:after {
-    border-left-color: #373B41;
+    border-left-color: #FFF;
 }
 .buttonGrey:hover > a,
 .buttonGrey > ul > li > a:hover {
-    color: #d67b96;
-    background: #70293b;
+    color: #FFDBB8;
+    background: #FF9966;
 }
 .buttonGrey:hover > a,
 .buttonGrey:hover > ul {
-    border-color: #70293b;
+    border-color: #FF9966;
 }
 .buttonGrey:hover > a:after {
-    border-left-color: #d67b96;
+    border-left-color: #FFDBB8;
 }
 
 /* Green button */
 .buttonGreen > a,
 .buttonGreen > ul {
-    border-color: #91b476;
+    border-color: #daffd5;
 }
 .buttonGreen > a,
 .buttonGreen > ul > li > a {
-    color: #43644a;
-    background: #729a64;
+    color: #daffd5;
+    background: #9be391;
 }
 .buttonGreen > a:after {
     border-left-color: #91b476;
 }
 .buttonGreen:hover > a,
 .buttonGreen > ul > li > a:hover {
-    color: #269926;
-    background: #67E667;
+    color: #eeffeb;
+    background: #91ff82;
 }
 .buttonGreen:hover > a,
 .buttonGreen:hover > ul {
-    border-color: #67E667;
+    border-color: #91ff82;
 }
 .buttonGreen:hover > a:after {
     border-left-color: #269926;
@@ -105,26 +109,26 @@ h1 {
 
 /* column standard colors */
 .column {
-    border-right-color: #373B41;
+    border-right-color: #DDD;
 }
 .column > a,
 .column > ul > li:before {
-    color: #1D1F21;
+    color: #DDD;
 }
 .column > a {
-    text-shadow: 0 0.5px #373B41;
+    text-shadow: 0 0.5px #FFF;
 }
 .column > ul > li > a {
-    color: #81A2BE;
+    color: #888;
 }
 
 /* Row purple highlite */
 .columnPurple:hover > a,
 .columnPurple:hover > ul > li:before {
-    color: #3c3a5c;
+    color: #b9b6d9
 }
 .columnPurple:hover > a {
-    text-shadow: 0 0.5px #b9b6d9;
+    text-shadow: 0 0.5px #FFF;
 }
 .columnPurple > ul > li > a:hover {
     color: #b9b6d9;
@@ -133,10 +137,10 @@ h1 {
 /* Row pink highlite */
 .columnPink:hover > a,
 .columnPink:hover > ul > li:before {
-    color: #70293b;
+    color: #d67b96
 }
 .columnPink:hover > a {
-    text-shadow: 0 0.5px #d67b96;
+    text-shadow: 0 0.5px #FFF;
 }
 .columnPink > ul > li > a:hover {
     color: #d67b96;
@@ -145,10 +149,10 @@ h1 {
 /* Row green highlite */
 .columnGreen:hover > a,
 .columnGreen:hover > ul > li:before {
-    color: #43644a;
+    color: #729a64;
 }
 .columnGreen:hover > a {
-    text-shadow: 0 0.5px #729a64;
+    text-shadow: 0 0.5px #FFF;
 }
 .columnGreen > ul > li > a:hover {
     color: #91b476;
