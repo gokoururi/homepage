@@ -42,68 +42,68 @@ h1 {
 .searchBar:focus {
     color: rgba(100,100,100,1);
 }
-.google {
+.search_google {
     background-image: url('images/icons/google.png');
 }
 
-.youtube {
+.search_youtube {
     background-image: url('images/icons/youtube.png');
 }
 
-.wikipedia {
+.search_wikipedia {
     background-image: url('images/icons/wikipedia.jpg');
     background-size: 21px 21px;
 }
 
 /* Grey button */
-.buttonGrey > a,
-.buttonGrey > ul {
+.button_grey > a,
+.button_grey > ul {
     border-color: #FFF;
 }
-.buttonGrey > a,
-.buttonGrey > ul > li > a {
+.button_grey > a,
+.button_grey > ul > li > a {
     color: #FFF;
     background: #CCC;
 }
-.buttonGrey > a:after {
+.button_grey > a:after {
     border-left-color: #FFF;
 }
-.buttonGrey:hover > a,
-.buttonGrey > ul > li > a:hover {
+.button_grey:hover > a,
+.button_grey > ul > li > a:hover {
     color: #FFDBB8;
     background: #FF9966;
 }
-.buttonGrey:hover > a,
-.buttonGrey:hover > ul {
+.button_grey:hover > a,
+.button_grey:hover > ul {
     border-color: #FF9966;
 }
-.buttonGrey:hover > a:after {
+.button_grey:hover > a:after {
     border-left-color: #FFDBB8;
 }
 
 /* Green button */
-.buttonGreen > a,
-.buttonGreen > ul {
+.button_green > a,
+.button_green > ul {
     border-color: #daffd5;
 }
-.buttonGreen > a,
-.buttonGreen > ul > li > a {
+.button_green > a,
+.button_green > ul > li > a {
     color: #daffd5;
     background: #9be391;
 }
-.buttonGreen > a:after {
+.button_green > a:after {
     border-left-color: #91b476;
 }
-.buttonGreen:hover > a,
-.buttonGreen > ul > li > a:hover {
+.button_green:hover > a,
+.button_green > ul > li > a:hover {
     color: #eeffeb;
     background: #91ff82;
 }
-.buttonGreen:hover > a,
-.buttonGreen:hover > ul {
+.button_green:hover > a,
+.button_green:hover > ul {
     border-color: #91ff82;
 }
-.buttonGreen:hover > a:after {
+.button_green:hover > a:after {
     border-left-color: #269926;
 }
 
@@ -123,37 +123,37 @@ h1 {
 }
 
 /* Row purple highlite */
-.columnPurple:hover > a,
-.columnPurple:hover > ul > li:before {
+.column_purple:hover > a,
+.column_purple:hover > ul > li:before {
     color: #b9b6d9
 }
-.columnPurple:hover > a {
+.column_purple:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
-.columnPurple > ul > li > a:hover {
+.column_purple > ul > li > a:hover {
     color: #b9b6d9;
 }
 
 /* Row pink highlite */
-.columnPink:hover > a,
-.columnPink:hover > ul > li:before {
+.column_pink:hover > a,
+.column_pink:hover > ul > li:before {
     color: #d67b96
 }
-.columnPink:hover > a {
+.column_pink:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
-.columnPink > ul > li > a:hover {
+.column_pink > ul > li > a:hover {
     color: #d67b96;
 }
 
 /* Row green highlite */
-.columnGreen:hover > a,
-.columnGreen:hover > ul > li:before {
+.column_green:hover > a,
+.column_green:hover > ul > li:before {
     color: #729a64;
 }
-.columnGreen:hover > a {
+.column_green:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
-.columnGreen > ul > li > a:hover {
+.column_green > ul > li > a:hover {
     color: #91b476;
 }
