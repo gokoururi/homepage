@@ -7,7 +7,7 @@ body {
     background: #1D1F21;
 }
 
-.highlite {
+.highlight {
     color: #d67b96;
 }
 
@@ -118,7 +118,7 @@ h1 {
     color: #81A2BE;
 }
 
-/* Row purple highlite */
+/* purple column highlight */
 .column_purple:hover > a,
 .column_purple:hover > ul > li:before {
     color: #3c3a5c;
@@ -130,7 +130,7 @@ h1 {
     color: #b9b6d9;
 }
 
-/* Row pink highlite */
+/* pink column highlight */
 .column_pink:hover > a,
 .column_pink:hover > ul > li:before {
     color: #70293b;
@@ -142,7 +142,7 @@ h1 {
     color: #d67b96;
 }
 
-/* Row green highlite */
+/* green column highlight */
 .column_green:hover > a,
 .column_green:hover > ul > li:before {
     color: #43644a;
