@@ -24,9 +24,6 @@ h1 {
     color: #FFF;
 }
 
-.searchBar::-webkit-input-placeholder {
-    color: rgba(0,0,0,0);
-}
 .searchBar {
     color: rgba(0,0,0,0);
     border-color: lightgrey;
@@ -35,12 +32,22 @@ h1 {
     box-shadow: 0 0 5px #FFF;
     border-color: #FFF;
 }
-.searchBar:focus::-webkit-input-placeholder{
-    color: rgba(100,100,100,1);
-}
+
+.searchBar::-webkit-input-placeholder { color: rgba(0,0,0,0); }
+.searchBar:-moz-placeholder           { color: rgba(0,0,0,0); opacity: 1; } /* Fx 4-18 */
+.searchBar::-moz-placeholder          { color: rgba(0,0,0,0); opacity: 1; } /* Fx 19+ */
+.searchBar:-ms-input-placeholder      { color: rgba(0,0,0,0); } /* IE 10+ */
+
+.searchBar:focus::-webkit-input-placeholder { color: rgba(100,100,100,1); }
+.searchBar:focus:-moz-placeholder           { color: rgba(100,100,100,1); opacity: 1; } /* Fx 4-18 */
+.searchBar:focus::-moz-placeholder          { color: rgba(100,100,100,1); opacity: 1; } /* Fx 19+ */
+.searchBar:focus:-ms-input-placeholder      { color: rgba(100,100,100,1); } /* IE 10+ */
+/* Specyfing opacity for Fx is only resetting the defaults. Alpha from rgba will still work. */
+
 .searchBar:focus {
     color: rgba(100,100,100,1);
 }
+
 .search_google {
     background-image: url('images/icons/google.png');
 }
