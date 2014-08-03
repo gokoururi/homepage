@@ -18,7 +18,6 @@ Features:
 
 Customizing, adding mascots and themes
 ----
-
 To change current theme, replace its name in [home.html](home.html#L15-17)
 
 To customize mascots in `ruri-dark` theme, modify the array in [themes/ruri-dark/mascots.js](themes/ruri-dark/mascots.js):
