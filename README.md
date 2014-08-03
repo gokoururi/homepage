@@ -5,7 +5,7 @@ Homepage
 
 **Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
 
-This repository contains a custom homepage made using html, css and javascript. Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
+This repository contains a custom homepage made using html, css and javascript (jQuery). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
 
 Features:
 * Flashy links
