@@ -24,6 +24,19 @@
                 <form class="searchForm" method="get" action="https://google.com/search">
                     <input class="searchBar google" type="text" name="q" placeholder="Google" autofocus="autofocus" />
                 </form>
+                <form class="searchForm" method="get" action="http://www.amazon.de/s/">
+                    <input class="searchBar amazon" type="text" name="field-keywords" placeholder="Amazon" />
+                </form>
+                <form class="searchForm" method="get" action="http://gelbooru.com/index.php">
+                    <input type="hidden" name="page" value="post" />
+                    <input type="hidden" name="s" value="list" />
+                    <input class="searchBar gelbooru" type="text" name="tags" placeholder="Gelbooru" />
+                </form>
+                <form class="searchForm" method="get" action="http://nyaa.se/">
+                    <input type="hidden" name="page" value="search" />
+                    <input type="hidden" name="cats" value="1_37" />
+                    <input class="searchBar nyaa" type="text" name="term" placeholder="Nyaa" />
+                </form>
                 <form class="searchForm" method="get" action="https://youtube.com/results">
                     <input class="searchBar youtube" type="text" name="search_query" placeholder="Youtube" />
                 </form>
@@ -32,38 +45,27 @@
                 </form>
             </section>
             <nav>
-                <ul class="buttonList">
-                    <li class="button buttonGreen"><a href="http://github.com/gokoururi/homepage">Github</a></li>
-                    <li class="button buttonGrey"><a href="http://gelbooru.com">Gelbooru</a></li>
-                    <li class="button buttonGrey"><a href="https://www.youtube.com/feed/history">Youtube</a></li>
-                </ul>
                 <ul class="columnList">
                     <li class="column columnPurple">
                         <a>Serious</a>
                         <ul>
+                            <li><a href="http://github.com/gokoururi/homepage">Github</a></li>
+                            <li><a href="https://youtube.com/feed/history">Youtube</a></li>
                             <li><a href="https://mail.google.com">Mail</a></li>
                             <li><a href="http://golem.de/">Golem</a></li>
                             <li><a href="http://maps.google.de/">Maps</a></li>
                             <li><a href="http://translate.google.de/">Translation</a></li>
                         </ul>
                     </li>
-                    <li class="column columnPurple">
+                    <li class="column columnGreen">
                         <a>Absurd</a>
                         <ul>
+                            <li><a href="http://boards.4chan.org/v/catalog">4chon</a></li>
                             <li><a href="http://twitch.tv/directory">Twitch</a></li>
                             <li><a href="http://themetapicture.com//">The Metapicture</a></li>
                             <li><a href="http://mmo-champion.com/">MMO-Champion</a></li>
                             <li><a href="http://tweetdeck.twitter.com/">Tweetdeck</a></li>
                             <li><a href="http://whompcomic.com">Whomp!</a></li>
-                        </ul>
-                    </li>
-                    <li class="column columnGreen">
-                        <a>4chon</a>
-                        <ul>
-                            <li><a href="http://boards.4chan.org/v/">Video Games</a></li>
-                            <li><a href="http://boards.4chan.org/vg/">Video Game General</a></li>
-                            <li><a href="http://boards.4chan.org/g/">Technology</a></li>
-                            <li><a href="http://boards.4chan.org/jp/">Otaku Culture</a></li>
                         </ul>
                     </li>
                     <li class="column columnPink">

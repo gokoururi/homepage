@@ -50,6 +50,15 @@ h1 {
 .wikipedia {
     background-image: url('../images/wikipedia.jpg');
 }
+.amazon {
+    background-image: url('../images/amazon.png');
+}
+.gelbooru {
+    background-image: url('../images/gelbooru.png');
+}
+.nyaa {
+    background-image: url('../images/nyaa.png');
+}
 
 /* Grey button */
 .buttonGrey > a,
